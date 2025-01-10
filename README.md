@@ -1,6 +1,9 @@
 
 # Insider Threat Detection Using Machine Learning
 
+![Overview](threatdetection.png)
+
+
 ## Overview
 This project implements an **end-to-end machine learning pipeline** for detecting insider threats using both traditional and deep learning approaches. It leverages MLflow for model tracking and deployment to ensure reproducibility and scalability.
 
