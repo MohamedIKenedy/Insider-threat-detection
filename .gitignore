@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Data and MLflow
+data/raw/*
+data/processed/*
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+mlflow/*
+!mlflow/.gitkeep
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+tensorboard/
+
+# Model artifacts
+*.pt
+*.pth
+*.ckpt
+model_artifacts/
+
+# Distribution
+dist/
+build/
+
+# System
+.DS_Store
+Thumbs.db
